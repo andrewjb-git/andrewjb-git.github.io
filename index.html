@@ -1,7 +1,55 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew's Tools</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+        }
+        .tool-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .tool-card h2 {
+            margin-top: 0;
+            color: #3a7bd5;
+        }
+        .tool-card a {
+            display: inline-block;
+            background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .tool-card a:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. Andrew is testing this now</p>
+    <h1>Andrew's Tools</h1>
+
+    <div class="tool-card">
+        <h2>📍 Photo GeoTagger</h2>
+        <p>Bulk upload photos and automatically detect their locations using AI (GeoSpy).
+           The app writes GPS coordinates into photo metadata so they appear on maps in Apple Photos,
+           Google Photos, and other apps.</p>
+        <a href="/geotagger/">Launch GeoTagger →</a>
+    </div>
 </body>
 </html>
